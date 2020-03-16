@@ -11,14 +11,14 @@ function getText(){
 //            console.log(res.text());
         return res.text();
     })
+   
     .then(function (data){
-        console.log(data)
+        console.log(data);
         document.getElementById("output").innerHTML=data;
     })
     .catch(function(err){
-        cosnole.log(err)
+        console.log(err)
     })
-       
 }
 
 // Get local json file
